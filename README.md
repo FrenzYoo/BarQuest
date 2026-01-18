@@ -4,7 +4,7 @@ LuckyShop is a modern and dynamic **GUI-based shop plugin** for Minecraft server
 
 ---
 
-<img%20width="456"%20height="57"%20alt="image"%20src="https://github.com/user-attachments/assets/818f85d1-9ee8-4e58-85a5-6dd7778675bc"%20/>
+<img width="456" height="57" alt="barquest" src="https://github.com/user-attachments/assets/4635730d-1c5d-4736-9ba9-6fbbd14bbcdd" />
 
 ---
 
