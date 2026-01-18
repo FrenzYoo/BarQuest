@@ -1,121 +1,64 @@
-# LuckyShop
+# BarQuest
 
-LuckyShop is a modern and dynamic **GUI-based shop plugin** for Minecraft servers. Unlike traditional shops, it uses **randomized stock**, **time-based resets**, and a **single-menu buy & sell system** to create a more engaging and balanced economy.
+BarQuest is a lightweight and customizable **Minecraft quest plugin** designed to guide players through tasks using the **BossBar**. It is built to be simple to configure, easy to use, and flexible enough for different server types such as Survival and Skyblock.
 
 ---
 
-<img width="456" height="57" alt="barquest" src="https://github.com/user-attachments/assets/4635730d-1c5d-4736-9ba9-6fbbd14bbcdd" />
+<img width="456" height="57" alt="image" src="https://github.com/user-attachments/assets/818f85d1-9ee8-4e58-85a5-6dd7778675bc" />
 
 ---
 
 ## ✨ Features
 
-* 🛒 **GUI Shop System** – Clean and simple inventory-based menu
-* 🎲 **Randomized Stock** – Each item has a random stock between defined limits
-* 💰 **Dynamic Economy** – Prices are based on a base value with configurable sell multipliers
-* ⏰ **Automatic Market Resets** – Shop resets at specific times of the day
-* 🔄 **Live Countdown** – Remaining time until next reset is shown in the menu
-* 📦 **Stack-Based Trading** – Buy and sell items in predefined stack amounts
-* 📖 **Info Book** – Built-in guide explaining how the shop works
-* 🔊 **Sound Feedback** – Custom sounds for clicks, success, and errors
-* 🌍 **Fully Configurable Messages** – Separate messages.yml with hex color support
-* ⚡ **Lightweight & Performance Friendly**
+* 📊 Quest progression displayed directly on the **BossBar**
+* 🔗 **Chained quest system** (complete one quest to unlock the next)
+* ⚙️ Fully configurable via **YAML files**
+* 🎁 Customizable rewards (commands, items, money, etc.)
+* 🌍 **Multi-language support** (EN / TR)
+* 🔄 Real-time BossBar updates
+* 🧩 Lightweight and performance-friendly
 
 ---
 
 ## 🧠 How It Works
 
-LuckyShop generates its shop items from a configurable **item pool**. For each reset:
+Each quest is defined in a configuration file. When a player starts a quest, their current objective is shown on the BossBar. As progress is made, the BossBar updates in real time. Once a quest is completed, rewards are given and the next quest in the chain becomes available.
 
-* Items receive a **random stock amount**
-* Prices are recalculated based on their base price
-* The market is refreshed automatically at the configured reset times
-
-Players interact with the shop using simple controls:
-
-* **Left Click** → Buy items (stack-based)
-* **Right Click** → Sell items
-* **Shift + Right Click** → Sell all matching items from inventory
-
-This system encourages strategic trading instead of unlimited buying and selling.
+This system helps players clearly understand what they need to do next without cluttering the chat or screen.
 
 ---
 
 ## ⚙️ Configuration
 
-LuckyShop is fully configurable using YAML files.
+* Easy-to-edit YAML configuration files
+* Customize:
+  * Quest objectives
+  * BossBar text and progress
+  * Rewards and commands
+  * Language messages
 
-### `config.yml`
-
-* GUI size, title, and decoration
-* Item pool and base prices
-* Minimum & maximum stock values
-* Stack size and item display amount
-* Sell price multiplier
-* Automatic reset times
-* Sound settings
-
-### `messages.yml`
-
-* Prefix customization
-* Player messages and errors
-* Broadcast messages on market reset
-* Full hex color code support
-
-No coding knowledge is required to customize the plugin.
+No advanced technical knowledge is required to set up basic quests.
 
 ---
 
 ## 🔑 Commands & Permissions
 
-* **`/luckyshop`**
-  Opens the LuckyShop menu for players.
-
-* **`/luckyshop reload`**
-  Reloads the plugin configuration.
-  **Permission:** `luckyshop.admin`
-
-* **`/luckyshop sifirla`**
-  Manually resets the market.
-  **Permission:** `luckyshop.admin`
-
----
-
-## 🧩 Placeholder Support
-
-LuckyShop provides a built-in placeholder that can be used with holograms, scoreboards, or other placeholder-compatible plugins:
-
-* **`%luckyshop_timer%`**
-  Shows the remaining time until the next market reset.
-
----
-
-## 🚧 Project Status
-
-⚠️ **LuckyShop is currently not available for download on any platform.**
-The plugin is under active development and continuously improved.
-It will be released publicly once it reaches a stable and production-ready state.
-
----
-
-## 🔑 Commands & Permissions
-
-* **`/barquest reload`**
-  Reloads the plugin configuration.
+* **`/barquest reload`**  
+  Reloads the plugin configuration files.  
   **Permission:** `barquest.admin`
 
-* **`/barquest reset`**
-  Resets all active quests and progress.
+* **`/barquest reset`**  
+  Resets all active quests and player progress.  
   **Permission:** `barquest.admin`
 
 ---
 
 ## 🎯 Use Cases
 
-* Survival servers with controlled economies
-* Skyblock servers with automated farming markets
-* Servers that want a more realistic and dynamic shop system
-* Economy-focused servers looking to prevent inflation
+* Survival servers that want guided progression
+* Skyblock servers with step-by-step objectives
+* Tutorial systems for new players
+* RPG-style quest flows
 
 ---
 
@@ -127,16 +70,15 @@ It will be released publicly once it reaches a stable and production-ready state
 
 ---
 
-## 📌 Notes
+## 📌 Links
 
-* Designed to be simple for players and powerful for server owners
-* Ideal replacement for static and unlimited shop systems
+* Resource page: https://builtbybit.com/resources/barquest.88783/
 
 ---
 
 ## 📄 License
 
-This project is distributed under its own license. Please check the repository or resource page for usage terms.
+This project is distributed under its own license. Please check the resource page for usage terms.
 
 ---
 
