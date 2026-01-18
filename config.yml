@@ -1,0 +1,39 @@
+# ======================================================
+#          BARQUEST TASK TYPES / GÖREV TÜRLERİ
+# ======================================================
+# 1. BLOCK_BREAK
+#    TR: Blok Kırma  -> target: Kırılacak blok ismi (Örn: STONE)
+#    EN: Block Break -> target: Block name to break (e.g. STONE)
+# 2. BLOCK_PLACE
+#    TR: Blok Koyma  -> target: Koyulacak blok ismi (Örn: DIRT)
+#    EN: Block Place -> target: Block name to place (e.g. DIRT)
+# 3. CRAFT
+#    TR: Eşya Üretme -> target: Üretilecek eşya ismi (Örn: FURNACE)
+#    EN: Item Craft  -> target: Item name to craft (e.g. FURNACE)
+# 4. MOB_KILL
+#    TR: Öldürme     -> target: Öldürülecek canavar türü (Örn: ZOMBIE)
+#    EN: Mob Kill    -> target: Mob type to kill (e.g. ZOMBIE)
+# 5. FISHING
+#    TR: Balık Tutma -> target: Tutulacak balık/eşya (Örn: COD)
+#    EN: Fishing     -> target: Fish/Item to catch (e.g. COD)
+# 6. CONSUME
+#    TR: Yeme/İçme   -> target: Yenilecek eşya ismi (Örn: APPLE)
+#    EN: Consume     -> target: Item name to consume (e.g. APPLE)
+# ======================================================
+
+# --- BARQUEST SETTINGS ---
+
+# Language Settings / Dil Ayarı
+# Options: "en" (English), "tr" (Turkish)
+lang: "en"
+
+settings:
+  world: "SuperiorWorld"
+
+  # --- SOUNDS / SESLER ---
+  # Set to "NONE" to disable.
+  sounds:
+    start: "ENTITY_PLAYER_LEVELUP"
+    next_stage: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    complete: "UI_TOAST_CHALLENGE_COMPLETE"
+

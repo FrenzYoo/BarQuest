@@ -1,0 +1,67 @@
+# --- TÜRKÇE DİL DOSYASI ---
+
+reward:
+  material: "COOKED_BEEF"
+  amount: 16
+  commands:
+    - "eco give %player% 5000"
+  message: "&#00FF00ᴛᴇʙʀiᴋʟᴇʀ ɢöʀᴇᴠʟᴇʀi ʙiᴛiʀᴅiɴ ᴠᴇ öᴅüʟʟᴇʀiɴi ᴀʟᴅɪɴ."
+
+tasks:
+  # 1. BLOCK KIRMA
+  1:
+    type: "BLOCK_BREAK"
+    target: "OAK_LOG"
+    amount: 10
+    title: "&#D7A84F&lɢöʀᴇᴠ: &#4FD769ᴍᴇşᴇ ᴏᴅᴜɴᴜ ᴋɪʀ &7(%current%/%target%)"
+    color: "BLUE"
+    style: "SOLID"
+  # 2. CRAFT
+  2:
+    type: "CRAFT"
+    target: "CRAFTING_TABLE"
+    amount: 1
+    title: "&#D7A84F&lɢöʀᴇᴠ: &#55FFFFçᴀʟɪşᴍᴀ ᴍᴀsᴀsɪ üʀᴇᴛ &7(%current%/%target%)"
+    color: "BLUE"
+    style: "SEGMENTED_6"
+  # 3. BLOCK YERLEŞTİRME
+  3:
+    type: "BLOCK_PLACE"
+    target: "COBBLESTONE"
+    amount: 32
+    title: "&#D7A84F&lɢöʀᴇᴠ: &#55FFFFᴋɪʀɪᴋᴛᴀş ᴋᴏʏ &7(%current%/%target%)"
+    color: "BLUE"
+    style: "SOLID"
+  # 4. AVCI
+  4:
+    type: "MOB_KILL"
+    target: "ZOMBIE"
+    amount: 5
+    title: "&#D7A84F&lɢöʀᴇᴠ: &#55FFFFᴢᴏᴍʙi ᴀᴠᴄɪsɪ &7(%current%/%target%)"
+    color: "BLUE"
+    style: "SEGMENTED_10"
+  # 5. BALIKÇILIK
+  5:
+    type: "FISHING"
+    target: "COD"
+    amount: 3
+    title: "&#D7A84F&lɢöʀᴇᴠ: &#55FFFFʙᴀʟɪᴋ ᴛᴜᴛ &e(çiğ ᴍᴏʀiɴᴀ) &7(%current%/%target%)"
+    color: "BLUE"
+    style: "SOLID"
+  # 6. YEMEK YEME
+  6:
+    type: "CONSUME"
+    target: "APPLE"
+    amount: 1
+    title: "&#D7A84F&lɢöʀᴇᴠ: &#FFFF00ᴇʟᴍᴀ ʏᴇ&7 (%current%/%target%)"
+    color: "BLUE"
+    style: "SOLID"
+
+messages:
+  prefix: "&#00AAAA&lʙᴀʀqᴜᴇsᴛ &8» "
+  start: "&#55FF55ᴀᴅᴀɴ ᴅᴏğʀᴜʟᴀɴᴅɪ! ʙᴀşʟᴀɴɢɪç ɢöʀᴇᴠʟᴇʀi ᴀᴋᴛiғ ᴇᴅiʟᴅi.."
+  next_stage: "&#00FF00ɢöʀᴇᴠ ᴛᴀᴍᴀᴍʟᴀɴᴅɪ sɪʀᴀᴅᴀᴋi ɢöʀᴇᴠᴇ ɢᴇçiʟiʏᴏʀ..."
+  complete: "&#FFD700&lᴛᴇʙʀiᴋʟᴇʀ &eᴛüᴍ ɢöʀᴇᴠʟᴇʀi ʙiᴛiʀᴅiɴ."
+  reload: "&aʏᴇɴiᴅᴇɴ ʏüᴋʟᴇɴᴅi."
+  reset_player: "&eᴏʏᴜɴᴄᴜɴᴜɴ ɢöʀᴇᴠʟᴇʀi sɪғɪʀʟᴀɴᴅɪ. "
+  island_reset: "&#FF5555ɢöʀᴇᴠʟᴇʀiɴ ʙᴀşʟᴀᴅɪ ɢöʀᴇᴠʟᴇʀi ʏᴀᴘᴀʀᴀᴋ öᴅüʟ ᴋᴀᴢᴀɴᴀʙiʟiʀsiɴ."

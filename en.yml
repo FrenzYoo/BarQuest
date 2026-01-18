@@ -1,0 +1,73 @@
+# --- ENGLISH LANGUAGE FILE (CUSTOM FONT & RGB) ---
+
+reward:
+  material: "COOKED_BEEF"  #If you don't want to give awards this way, write "AIR".
+  amount: 16
+  commands:
+    - "eco give %player% 5000"
+  # Mesaj: "Congratulations! Rewards have been added to your account."
+  message: "&#00FF00ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛiᴏɴs! &#FFFF00ʀᴇᴡᴀʀᴅs ʜᴀᴠᴇ ʙᴇᴇɴ ᴀᴅᴅᴇᴅ ᴛᴏ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ."
+
+tasks:
+  # 1. BLOCK BREAK
+  1:
+    type: "BLOCK_BREAK"
+    target: "OAK_LOG"
+    amount: 10
+    title: "&#D7A84F&lqᴜᴇsᴛ: &#4FD769ʙʀᴇᴀᴋ ᴏᴀᴋ ʟᴏɢ &7(%current%/%target%)"
+    color: "GREEN"
+    style: "SOLID"
+
+  # 2. CRAFT
+  2:
+    type: "CRAFT"
+    target: "CRAFTING_TABLE"
+    amount: 1
+    title: "&#D7A84F&lqᴜᴇsᴛ: &#55FFFFᴄʀᴀғᴛ ᴄʀᴀғᴛiɴɢ ᴛᴀʙʟᴇ &7(%current%/%target%)"
+    color: "YELLOW"
+    style: "SEGMENTED_6"
+
+  # 3. BLOCK PLACE
+  3:
+    type: "BLOCK_PLACE"
+    target: "COBBLESTONE"
+    amount: 32
+    title: "&#D7A84F&lqᴜᴇsᴛ: &#55FFFFᴘʟᴀᴄᴇ ᴄᴏʙʙʟᴇsᴛᴏɴᴇ &7(%current%/%target%)"
+    color: "BLUE"
+    style: "SOLID"
+
+  # 4. HUNTER
+  4:
+    type: "MOB_KILL"
+    target: "ZOMBIE"
+    amount: 5
+    title: "&#D7A84F&lqᴜᴇsᴛ: &#55FFFFᴢᴏᴍʙiᴇ ʜᴜɴᴛᴇʀ &7(%current%/%target%)"
+    color: "RED"
+    style: "SEGMENTED_10"
+
+  # 5. FISHING
+  5:
+    type: "FISHING"
+    target: "COD"
+    amount: 3
+    title: "&#D7A84F&lqᴜᴇsᴛ: &#55FFFFғisʜiɴɢ ᴛiᴍᴇ &e(ᴄᴏᴅ) &7(%current%/%target%)"
+    color: "BLUE"
+    style: "SOLID"
+
+  # 6. EAT
+  6:
+    type: "CONSUME"
+    target: "APPLE"
+    amount: 1
+    title: "&#D7A84F&lqᴜᴇsᴛ: &#FFFF00ᴇᴀᴛ ᴀᴘᴘʟᴇ &7(%current%/%target%)"
+    color: "YELLOW"
+    style: "SOLID"
+
+messages:
+  prefix: "&#00AAAA&lʙᴀʀqᴜᴇsᴛ &8» "
+  start: "&#55FF55isʟᴀɴᴅ ᴠᴇʀiғiᴇᴅ! sᴛᴀʀᴛiɴɢ qᴜᴇsᴛs ᴀᴄᴛiᴠᴀᴛᴇᴅ."
+  next_stage: "&#00FF00qᴜᴇsᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ! &#FFFF00ᴍᴏᴠiɴɢ ᴛᴏ ɴᴇxᴛ sᴛᴀɢᴇ..."
+  complete: "&#FFD700&lᴄᴏɴɢʀᴀᴛᴜʟᴀᴛiᴏɴs! &eʏᴏᴜ ʜᴀᴠᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴀʟʟ sᴛᴀʀᴛiɴɢ qᴜᴇsᴛs."
+  reload: "&aᴄᴏɴғiɢᴜʀᴀᴛiᴏɴ ᴀɴᴅ ʟᴀɴɢᴜᴀɢᴇ ғiʟᴇs ʀᴇʟᴏᴀᴅᴇᴅ!"
+  reset_player: "&eᴘʟᴀʏᴇʀ qᴜᴇsᴛs ʀᴇsᴇᴛ: "
+  island_reset: "&#FF5555ʏᴏᴜ ᴄᴀɴ ᴇᴀʀɴ ʀᴇᴡᴀʀᴅs ʙʏ ᴄᴏᴍᴘʟᴇᴛiɴɢ ᴛᴀsᴋs."
