@@ -4,6 +4,10 @@ BarQuest is a lightweight and customizable **Minecraft quest plugin** designed t
 
 ---
 
+<img width="456" height="57" alt="image" src="https://github.com/user-attachments/assets/818f85d1-9ee8-4e58-85a5-6dd7778675bc" />
+
+---
+
 ## ✨ Features
 
 * 📊 Quest progression displayed directly on the **BossBar**
@@ -23,6 +27,7 @@ Each quest is defined in a configuration file. When a player starts a quest, the
 This system helps players clearly understand what they need to do next without cluttering the chat or screen.
 
 ---
+![Uploading image.png…]()
 
 ## ⚙️ Configuration
 
