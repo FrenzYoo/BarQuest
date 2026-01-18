@@ -27,7 +27,6 @@ Each quest is defined in a configuration file. When a player starts a quest, the
 This system helps players clearly understand what they need to do next without cluttering the chat or screen.
 
 ---
-![Uploading image.png…]()
 
 ## ⚙️ Configuration
 
