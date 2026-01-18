@@ -1,11 +1,10 @@
-# --- ENGLISH LANGUAGE FILE (CUSTOM FONT & RGB) ---
+# --- ENGLISH LANGUAGE FILE ---
 
 reward:
   material: "COOKED_BEEF"  #If you don't want to give awards this way, write "AIR".
   amount: 16
   commands:
     - "eco give %player% 5000"
-  # Mesaj: "Congratulations! Rewards have been added to your account."
   message: "&#00FF00ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛiᴏɴs! &#FFFF00ʀᴇᴡᴀʀᴅs ʜᴀᴠᴇ ʙᴇᴇɴ ᴀᴅᴅᴇᴅ ᴛᴏ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ."
 
 tasks:
@@ -70,4 +69,5 @@ messages:
   complete: "&#FFD700&lᴄᴏɴɢʀᴀᴛᴜʟᴀᴛiᴏɴs! &eʏᴏᴜ ʜᴀᴠᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴀʟʟ sᴛᴀʀᴛiɴɢ qᴜᴇsᴛs."
   reload: "&aᴄᴏɴғiɢᴜʀᴀᴛiᴏɴ ᴀɴᴅ ʟᴀɴɢᴜᴀɢᴇ ғiʟᴇs ʀᴇʟᴏᴀᴅᴇᴅ!"
   reset_player: "&eᴘʟᴀʏᴇʀ qᴜᴇsᴛs ʀᴇsᴇᴛ: "
+
   island_reset: "&#FF5555ʏᴏᴜ ᴄᴀɴ ᴇᴀʀɴ ʀᴇᴡᴀʀᴅs ʙʏ ᴄᴏᴍᴘʟᴇᴛiɴɢ ᴛᴀsᴋs."
